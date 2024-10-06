@@ -15,10 +15,6 @@ a {
   color: unset;
 }
 
-img {
-  max-width: 100%;
-}
-
 /* Layouts */
 .wrapper {
   /* box-shadow: inset 0 0 20px red; */
@@ -92,14 +88,13 @@ img {
 }
 
 .article-contents {
+  box-shadow: inset 0 0 20px red;
   flex-grow: 1;
   padding: 20px;
-  flex-basis: 0;
-  min-width: 0;
 }
 
 .article-contents h2 {
-  font-size: 30px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 
@@ -113,7 +108,6 @@ img {
 }
 
 .article-cover {
+  box-shadow: inset 0 0 20px blue;
   width: 250px;
-  flex-shrink: 0;
-  min-height: 0;
 }
